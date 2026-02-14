@@ -1,0 +1,39 @@
+body {
+    background-color: #ffc0cb; /* Розовый цвет фона */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4; /* Ярко-розовый цвет текста */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 24px;
+    color: white;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#imageContainer {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
